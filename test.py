@@ -15,3 +15,6 @@ print()
 print(x ** y)
 print(0.5 ** y)
 print(pow(x, y))
+
+number = 3.44444
+print(round(number), round(number, 2))
