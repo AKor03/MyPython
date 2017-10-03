@@ -1,3 +1,4 @@
+import math
 print("Введи значение a")
 a = float(input("a = "))
 print("Введи значение b")
@@ -8,7 +9,6 @@ c = float(input("c = "))
 d = b ** 2 - 4 * a * c;
 print("d = {}".format(d))
 if d > 0:
-    import math
     x1 = (-b + math.sqrt(d)) / (2 * a)
     x2 = (-b - math.sqrt(d)) / (2 * a)
     print("x1 = {}".format(x1))
