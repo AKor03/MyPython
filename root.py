@@ -1,10 +1,11 @@
 import math
-print("Введи значение a")
+print("a Ввел!")
 a = float(input("a = "))
-print("Введи значение b")
+print("b Ввел!")
 b = float(input("b = "))
-print("Введи значение c")
+print("c Ввел!")
 c = float(input("c = "))
+print("Красава!")
 
 d = b ** 2 - 4 * a * c;
 print("d = {}".format(d))
@@ -15,6 +16,6 @@ if d > 0:
     print("x2 = {}".format(x2))
 elif d == 0:
     x = -b / (2 * a)
-    print("x = {}".format(x))
+    print("Вот тебе корень x = {}".format(x))
 else:
-    print("нет корня")
+    print("Поц")
